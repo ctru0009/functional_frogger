@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>FIT2102 A1 2022</title>
+  </head>
+  <body>
+    <h1>Frogger</h1>
+    <svg id="svgCanvas" width="600" height="600" style="background-color: #9b7653;    margin: auto;">
+      <!-- transform="translate(300,525)" -->
+      <g id="underLayer">
+      </g>
+      <g id="water" ></g>
+      <g id="car"></g>
+      <g id="plank"></g>
+      <g id="turtle"></g>
+      <g id="fillable"></g>
+      <g id="topLayer">
+        <rect id="frog" transform="translate(300,550)" width="50" height="50"style="fill: green; stroke: green; stroke-width: 1px;stroke: black; stroke-width: 1;stroke-location: inside;"></rect>  
+      </g>
+      <g id="scoreText">
+        <text id="score" x="35%" y="50" style="font-size:40px; text-anchor: end; fill: black">Score: </text>
+        <text id="highscore" x="45%" y="50" style="font-size: 40px; text-anchor: start; fill: black">Highscore: </text>  
+        <text id="gameover" x = 300 y = 300 style="font-size: 50px; text-anchor: middle;font-weight: bold; fill: red; stroke: black; stroke-width: 2px;"></text>
+      </g>
+    </svg>
+  </body>
+</html>
